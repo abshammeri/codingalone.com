@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Codingalone"
+title:  "Welcome to Codingalone2"
 date:   2014-08-18 18:39:07
 categories: jekyll update
 ---
