@@ -5,8 +5,8 @@
     <description>I was born to code alone</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Sep 2014 01:24:28 +0300</pubDate>
-    <lastBuildDate>Tue, 02 Sep 2014 01:24:28 +0300</lastBuildDate>
+    <pubDate>Tue, 02 Sep 2014 01:29:04 +0300</pubDate>
+    <lastBuildDate>Tue, 02 Sep 2014 01:29:04 +0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -17,13 +17,13 @@
 
 &lt;h2 id=&quot;section&quot;&gt;التصميم&lt;/h2&gt;
 
-&lt;p&gt;هل أعجبك هذا الخط؟ أتمنى ذلك لأني دفعت مقابل الحصول عليه مئة ريال واسمه &lt;a href=&quot;https://www.rosettatype.com/Eskorte&quot;&gt;Eskorte&lt;/a&gt; ، هذه النسخة تجريبية تنتهي بعد سنة ولم أقرا الرخصة بالتفصيل ، لكن سأعطيه بعض الوقت وسأرى. أما الموقع نفسه فاستخدمت نفس css/sass الافتراضي في jekyll ، مع بعض التعديلات ليتوافق مع اللغة العربية. لازال الوقت طويلا للوصول إلى تصميم مرضي.&lt;/p&gt;
+&lt;p&gt;هل أعجبك هذا الخط؟ أتمنى ذلك لأني دفعت مقابل الحصول عليه مئة ريال واسمه &lt;a href=&quot;https://www.rosettatype.com/Eskorte&quot;&gt;Eskorte&lt;/a&gt; ، هذه النسخة تجريبية تنتهي بعد سنة ولم أقرا الرخصة بالتفصيل ، لكن الأكيد أنه يجب أن تدفع بعض المال مقابل الحصول على هذا الخط ،  ، لكن سأعطيه بعض الوقت وسأرى. أما الموقع نفسه فاستخدمت نفس css/sass الافتراضي في jekyll ، مع بعض التعديلات ليتوافق مع اللغة العربية. لازال الوقت طويلا للوصول إلى تصميم مرضي.&lt;/p&gt;
 
-&lt;h2 id=&quot;codingalonecom&quot;&gt;CodingAlone.com&lt;/h2&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;وش سالفة اسم النطاق&lt;/h2&gt;
 
 &lt;p&gt;codingalone.com هو النطاق الذي حجزته منذ مدة عندما كنت “ أبرمج وحيدا “ كما هي العادة  في منتصف كل ليلة ، حالي حال أي مبرمج و مبرمجة ابتلي بإدمان البرمجة ،لا أعرف إن كنت سأستمر على هذا النطاق أم أحجز نطاق كلاسيكي باسمي التقليدي؟ لا أعرف.&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;اهتماماتي&lt;/h2&gt;
+&lt;h2 id=&quot;section-2&quot;&gt;اهتماماتي&lt;/h2&gt;
 
 &lt;p&gt;أهتم في تطوير تطبيقات الويب و الموبايل ، لكن قد أكتب عن أشياء مثل nginx as load balancer أو OpenGL Graphics Programming أو Paraller Processing ، بالعربي بتاع كلّه، حسب المزاج.&lt;/p&gt;
 
