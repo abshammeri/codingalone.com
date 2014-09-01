@@ -1,35 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
+    <title>عبدالله الشمّري</title>
+    <description>I was born to code alone</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Aug 2014 00:53:30 +0300</pubDate>
-    <lastBuildDate>Fri, 29 Aug 2014 00:53:30 +0300</lastBuildDate>
+    <pubDate>Tue, 02 Sep 2014 01:24:28 +0300</pubDate>
+    <lastBuildDate>Tue, 02 Sep 2014 01:24:28 +0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
-        <title>الأدوات المستخدمة في تطوير هذا الموقع وأشياء أخرى</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>مرحباً والأدوات المستخدمة في تطوير الموقع و أشياء أخرى</title>
+        <description>&lt;p&gt;&lt;em&gt;مرحباً&lt;/em&gt;  لأنها االتدوينة الأولى في الموقع الذي فكرت فيه تسع سنوات ونفذته في ساعتين ليس لأني Geek ولكن لأني كرهت حياتي بسبب التأجيل و الكسل &lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;استخدمت أدوات مفتوحة المصدر في تطوير هذا الموقع ، واعتمدت على “تصميم بسيط” ليظهر بهذا الشكل. &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; هي الأداة التي استخدمتها في بناء هذا الموقع، وهي مبنية باستخدام Ruby وصدقني : لا أعرف Ruby كما لا أعرف كيف أكتب Jekyll بطريقة صحيحة في كل مرة. Jekyll هي أداة لتوليد ملفات html ستاتيكية ، لا يوجد قاعدة بيانات ، حيث كل البيانات مخزنة في مستودع على github ، وبالمناسبة ، موقعي &lt;a href=&quot;https://github.com/abshammeri/codingalone.com&quot;&gt;مفتوح المصدر&lt;/a&gt;. أستخدم سيرفر شخصي VPS مستضاف لدى الشركة الرائعة جدا &lt;a href=&quot;http://linode.com&quot;&gt;linode&lt;/a&gt;، حيث نظام التشغيل Ubuntu و الويب سيرفر هو &lt;a href=&quot;http://nginx.org/&quot;&gt;nginx&lt;/a&gt;. أستخدم &lt;a href=&quot;http://git-scm.com/book/en/Customizing-Git-Git-Hooks&quot;&gt;git hook&lt;/a&gt; لعمل deployment من جهازي إلى السيرفر ، سأشرح في تدوينة قادمة كيف حدث هذا. طبعا عملية تثبيت السيرفر وإعداده لأول مرة عملية متبعة لمن لا يفقه بنظام linux إلا القليل ، لكن استفدت كثيرا من &lt;a href=&quot;http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers&quot;&gt;مقالات متعددة&lt;/a&gt; ترشدك للخمس الدقائق الأولى التي تحتاجها ، مثل تثبيت Fail2ban و إنشاء users و إضافة privielges. أما logs فأستخدم أداة [logwatch][logwatch] لمشاهدة ملخص يومي يصلني على بريدي الشخصي عن حالة server ، من دخل ومن خرج وماذا حدث.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h2 id=&quot;section&quot;&gt;التصميم&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;هل أعجبك هذا الخط؟ أتمنى ذلك لأني دفعت مقابل الحصول عليه مئة ريال واسمه &lt;a href=&quot;https://www.rosettatype.com/Eskorte&quot;&gt;Eskorte&lt;/a&gt; ، هذه النسخة تجريبية تنتهي بعد سنة ولم أقرا الرخصة بالتفصيل ، لكن سأعطيه بعض الوقت وسأرى. أما الموقع نفسه فاستخدمت نفس css/sass الافتراضي في jekyll ، مع بعض التعديلات ليتوافق مع اللغة العربية. لازال الوقت طويلا للوصول إلى تصميم مرضي.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;codingalonecom&quot;&gt;CodingAlone.com&lt;/h2&gt;
+
+&lt;p&gt;codingalone.com هو النطاق الذي حجزته منذ مدة عندما كنت “ أبرمج وحيدا “ كما هي العادة  في منتصف كل ليلة ، حالي حال أي مبرمج و مبرمجة ابتلي بإدمان البرمجة ،لا أعرف إن كنت سأستمر على هذا النطاق أم أحجز نطاق كلاسيكي باسمي التقليدي؟ لا أعرف.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;اهتماماتي&lt;/h2&gt;
+
+&lt;p&gt;أهتم في تطوير تطبيقات الويب و الموبايل ، لكن قد أكتب عن أشياء مثل nginx as load balancer أو OpenGL Graphics Programming أو Paraller Processing ، بالعربي بتاع كلّه، حسب المزاج.&lt;/p&gt;
+
+&lt;p&gt;سأسعى لتحسين المدونة مع الوقت ، بإضافة نظام  للتعليقات ( هل سيهتم أحد ؟ )  و تحسين الشكل والأهم المضمون المفيد، إلى ذلك الحين يمكننا التواصل عبر حسابي الشخصي في &lt;a href=&quot;https://twitter.com/abshammeri&quot;&gt;twitter&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 29 Aug 2014 03:00:13 +0300</pubDate>
-        <link>http://yourdomain.com/general/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://yourdomain.com/general/welcome-to-jekyll</guid>
+        <pubDate>Mon, 01 Sep 2014 03:00:13 +0300</pubDate>
+        <link>http://yourdomain.com/general/tools-used-in-this-blog%20copy</link>
+        <guid isPermaLink="true">http://yourdomain.com/general/tools-used-in-this-blog%20copy</guid>
         
         
         <category>general</category>

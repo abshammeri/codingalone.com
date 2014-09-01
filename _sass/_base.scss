@@ -9,6 +9,9 @@ dl, dd, ol, ul, figure {
 }
 
 
+p{
+	text-align: justify;
+}
 
 /**
  * Basic styling
@@ -20,6 +23,7 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
+	line-height: 1.8;
 }
 
 
@@ -96,8 +100,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: darken($text-color, 50%);
     }
 }
 
@@ -139,11 +142,13 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
-
+	direction: ltr;
+	text-align: left;
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+		
     }
 }
 

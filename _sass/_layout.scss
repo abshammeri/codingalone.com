@@ -1,3 +1,6 @@
+body{
+	direction: rtl;//added
+}
 /**
  * Site header
  */
@@ -15,7 +18,7 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    float: right; // left
 
     &,
     &:visited {
@@ -24,7 +27,7 @@
 }
 
 .site-nav {
-    float: right;
+    float: left;//right
     line-height: 56px;
 
     .menu-icon {
@@ -32,27 +35,27 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $text-header-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-right: 20px;//left
         }
     }
 
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
-        right: 30px;
+        left: 30px;//right
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
-        text-align: right;
+        text-align: left;//right
 
         .menu-icon {
             display: block;
-            float: right;
+            float: left;//right
             width: 36px;
             height: 26px;
             line-height: 0;
@@ -104,7 +107,7 @@
 .contact-list,
 .social-media-list {
     list-style: none;
-    margin-left: 0;
+    margin-right: 0;//left
 }
 
 .footer-col-wrapper {
@@ -115,9 +118,9 @@
 }
 
 .footer-col {
-    float: left;
+    float: right;//left
     margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit / 2;//left
 }
 
 .footer-col-1 {
@@ -163,6 +166,17 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+	 h2{
+		 a{
+			 color: $text-color;		 	
+	         font-size: 28px; 					
+	         @include media-query($on-laptop) {
+	             font-size: 24px;
+	         }
+			 
+		 }		 
+
+	}
 }
 
 .page-heading {
@@ -170,7 +184,8 @@
 }
 
 .post-list {
-    margin-left: 0;
+	margin-right:0;//added
+    //margin-left: 0;
     list-style: none;
 
     > li {
@@ -181,6 +196,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+
 }
 
 .post-link {
@@ -198,39 +214,49 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     letter-spacing: -1px;
     line-height: 1;
-
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 28px;
     }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
-
+	float: right;//added
+	text-align: right;//added
     h2 {
         font-size: 32px;
-
+		float:right;//added	
+		a{
+			color:$title-color;
+		}
+			
         @include media-query($on-laptop) {
             font-size: 28px;
         }
     }
 
     h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
+        font-size: 22px;
+		float:right;//added
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+		a{
+			color:$title-color;
+		}
+    }
+
+    h4 {
+        font-size: 16px;
+		float:right;//added
+        @include media-query($on-laptop) {
+            font-size: 14px;
+        }
+		a{
+			color:$title-color;
+		}
     }
 }
