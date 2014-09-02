@@ -5,13 +5,13 @@
     <description>I was born to code alone</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Sep 2014 19:39:34 +0300</pubDate>
-    <lastBuildDate>Tue, 02 Sep 2014 19:39:34 +0300</lastBuildDate>
+    <pubDate>Tue, 02 Sep 2014 19:47:33 +0300</pubDate>
+    <lastBuildDate>Tue, 02 Sep 2014 19:47:33 +0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>مرحباً والأدوات المستخدمة في تطوير الموقع و أشياء أخرى</title>
-        <description>&lt;p&gt;&lt;em&gt;مرحباً&lt;/em&gt;  لأنها االتدوينة الأولى في الموقع الذي فكرت فيه تسع سنوات ونفذته في ساعتين ليس لأني Geek ولكن لأني كرهت حياتي بسبب التأجيل و الكسل &lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;مرحباً&lt;/em&gt;  لأنها االتدوينة الأولى في الموقع الذي فكرت فيه تسع سنوات ونفذته في ساعتين ليس لأني Geek ولكن لأني كرهت حياتي بسبب التأجيل و الكسل.&lt;/p&gt;
 
 &lt;p&gt;استخدمت أدوات مفتوحة المصدر في تطوير هذا الموقع ، واعتمدت على “تصميم بسيط” ليظهر بهذا الشكل. &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; هي الأداة التي استخدمتها في بناء هذا الموقع، وهي مبنية باستخدام Ruby وصدقني : لا أعرف Ruby كما لا أعرف كيف أكتب Jekyll بطريقة صحيحة في كل مرة. Jekyll هي أداة لتوليد ملفات html ستاتيكية ، لا يوجد قاعدة بيانات ، حيث كل البيانات مخزنة في مستودع على github ، وبالمناسبة ، موقعي &lt;a href=&quot;https://github.com/abshammeri/codingalone.com&quot;&gt;مفتوح المصدر&lt;/a&gt;. أستخدم سيرفر شخصي VPS مستضاف لدى الشركة الرائعة جدا &lt;a href=&quot;http://linode.com&quot;&gt;linode&lt;/a&gt;، حيث نظام التشغيل Ubuntu و الويب سيرفر هو &lt;a href=&quot;http://nginx.org/&quot;&gt;nginx&lt;/a&gt;. أستخدم &lt;a href=&quot;http://git-scm.com/book/en/Customizing-Git-Git-Hooks&quot;&gt;git hook&lt;/a&gt; لعمل deployment من جهازي إلى السيرفر ، سأشرح في تدوينة قادمة كيف حدث هذا. طبعا عملية تثبيت السيرفر وإعداده لأول مرة عملية متعبة لمن لا يفقه بنظام linux إلا القليل ، لكن استفدت كثيرا من &lt;a href=&quot;http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers&quot;&gt;مقالات متعددة&lt;/a&gt; ترشدك للخمس الدقائق الأولى التي تحتاجها ، مثل تثبيت Fail2ban و إنشاء users و إضافة privielges. أما logs فأستخدم أداة &lt;a href=&quot;http://linux.die.net/man/8/logwatch&quot;&gt;logwatch&lt;/a&gt; لمشاهدة ملخص يومي يصلني على بريدي الشخصي عن حالة server ، من دخل ومن خرج وماذا حدث.&lt;/p&gt;
 
