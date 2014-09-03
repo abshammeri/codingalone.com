@@ -3,10 +3,10 @@
   <channel>
     <title>عبدالله الشمّري</title>
     <description>I was born to code alone</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Sep 2014 19:47:33 +0300</pubDate>
-    <lastBuildDate>Tue, 02 Sep 2014 19:47:33 +0300</lastBuildDate>
+    <link>http://codingalone.com/</link>
+    <atom:link href="http://codingalone.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 03 Sep 2014 21:40:52 +0300</pubDate>
+    <lastBuildDate>Wed, 03 Sep 2014 21:40:52 +0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -31,8 +31,8 @@
 
 </description>
         <pubDate>Mon, 01 Sep 2014 03:00:13 +0300</pubDate>
-        <link>http://yourdomain.com/general/tools-used-in-this-blog</link>
-        <guid isPermaLink="true">http://yourdomain.com/general/tools-used-in-this-blog</guid>
+        <link>http://codingalone.com/general/tools-used-in-this-blog</link>
+        <guid isPermaLink="true">http://codingalone.com/general/tools-used-in-this-blog</guid>
         
         
         <category>general</category>
