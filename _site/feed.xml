@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>عبدالله الشمّري</title>
-    <description>born to code alone</description>
+    <title>Coding Alone</title>
+    <description>Abdullah Alshammari Blog</description>
     <link>http://codingalone.com/</link>
     <atom:link href="http://codingalone.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Sep 2014 23:06:11 +0300</pubDate>
-    <lastBuildDate>Thu, 04 Sep 2014 23:06:11 +0300</lastBuildDate>
+    <pubDate>Thu, 04 Sep 2014 23:34:56 +0300</pubDate>
+    <lastBuildDate>Thu, 04 Sep 2014 23:34:56 +0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -31,12 +31,14 @@
 
 </description>
         <pubDate>Mon, 01 Sep 2014 03:00:13 +0300</pubDate>
+		<dc:creator>Abdullah Alshammari</dc:creator>
         <link>http://codingalone.com/general/tools-used-in-this-blog</link>
         <guid isPermaLink="true">http://codingalone.com/general/tools-used-in-this-blog</guid>
         
         
         <category>general</category>
         
+		<category>programming</category>
       </item>
     
   </channel>
