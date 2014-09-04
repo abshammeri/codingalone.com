@@ -1,12 +1,13 @@
 # Site settings
 title: عبدالله الشمّري
 email: abshammeri@gmail.com
-description: I was born to code alone
+description: born to code alone
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://codingalone.com" # the base hostname & protocol for your site
 twitter_username: abshammeri
 github_username:  abshammeri
 permalink: /:categories/:title
+feedTitle: "CodingAlone.com Blog"
 gems:
   - jekyll-sitemap
 
