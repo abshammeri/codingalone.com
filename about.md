@@ -4,8 +4,6 @@ title: نبذة
 permalink: /about/
 ---
 <p>
-عبدالله الشمري ، مبرمج ويب و موبايل ، للتواصل abshammeri@gmail.com
-</p>
-<p style='direction:ltr;text-align:left;'>
-	Abdullah Alshammari , web and mobile developer 
+	عبدالله الشمري، Abdullah Alshammari ، مبرمج ويب و موبايل ، 
+<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 </p>
