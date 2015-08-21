@@ -14,6 +14,7 @@ categories: general
 ![iTerm2 twilight color scheme]({{ site.url }}/assets/term2-twilight.png)
 
 
+
 إذا أعجبك الثيم أو ترغب في الحصول على آخر أقترح أيضا أن تلقي نظرة على موقع [iTerm2-color-schemes][iTerm2-color-schemes] حيث يحتوي على ملف مضغوط بعشرات من الـ color schemes مع شرح مبسط لطريقة التثبيت.
 
 لعلك لاحظت في الصورة السابقة عبارة "ashammari in github" مع سهم صغير. بالظبط، هنا تحتاج تعدل على bash و تحديدا الـ ``` ~/.bash_profile ``` هذا مثال على بعض التعديلات على ذلك الملف ليضيف لك header في terminal ، أخذت الفكرة من أحد ما من الانترنت  ، لا أذكر المصدر للأسف: 
