@@ -44,7 +44,7 @@ colorscheme gruvbox
 ![vim + gruvbox color scheme]({{ site.url }}/assets/gruvbox.png)
 
 
-إن كان لديك ملاحظات، فعلى حسابي [تويتر][twitter] تجدني..
+إن كان لديك ملاحظات، فعلى حسابي [تويتر][twitter] تجدني.
 
 
 
