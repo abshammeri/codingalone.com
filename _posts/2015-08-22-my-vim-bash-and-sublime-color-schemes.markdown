@@ -12,7 +12,7 @@ categories: general
 
 الكثير يستخدم [iTerm2][iTerm2] كـ Terminal عوضاً عن الذي يأتي بشكل افتراضي مع OS X ، وأقترح عليك استخدامه . هذه صورة للثيم المستخدم واسمه Twilight -  بالمناسبة ، أكره هذا الفيلم - : 
 
-![iTerm2 twilight color scheme]({{ site.url }}/assets/term2-twilight.png)
+![iTerm2 twilight color scheme]({{ site.url }}/assets/iterm2-twilight.png)
 
 إذا أعجبك الثيم أو ترغب في الحصول على آخر أقترح أيضا أن تلقي نظرة على موقع [iTerm2-color-schemes][iTerm2-color-schemes] حيث يحتوي على ملف مضغوط بعشرات من الـ color schemes مع شرح مبسط لطريقة التثبيت.
 
