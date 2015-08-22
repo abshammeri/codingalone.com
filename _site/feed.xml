@@ -5,8 +5,8 @@
     <description>Abdullah Alshammari Blog</description>
     <link>http://codingalone.com/</link>
     <atom:link href="http://codingalone.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 22 Aug 2015 03:32:06 +0300</pubDate>
-    <lastBuildDate>Sat, 22 Aug 2015 03:32:06 +0300</lastBuildDate>
+    <pubDate>Sat, 22 Aug 2015 04:03:21 +0300</pubDate>
+    <lastBuildDate>Sat, 22 Aug 2015 04:03:21 +0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,7 +28,6 @@
 &lt;p&gt;لعلك لاحظت في الصورة السابقة عبارة “ashammari in github” مع سهم صغير. بالظبط، هنا تحتاج تعدل على bash و تحديدا الـ &lt;code&gt;~/.bash_profile&lt;/code&gt; هذا مثال على بعض التعديلات على ذلك الملف ليضيف لك header في terminal ، أخذت الفكرة من أحد ما من الانترنت  ، لا أذكر المصدر للأسف:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;#   Change Prompt
-#   ------------------------------------------------------------
 export PS1=&quot;\[\e[31;5;81m\]\u in \W\n→\[\e[39m\] &quot;
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad

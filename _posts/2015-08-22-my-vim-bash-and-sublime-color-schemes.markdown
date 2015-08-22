@@ -20,7 +20,6 @@ categories: general
 
 
 	#   Change Prompt
-	#   ------------------------------------------------------------
 	export PS1="\[\e[31;5;81m\]\u in \W\n→\[\e[39m\] "
 	export CLICOLOR=1
 	export LSCOLORS=ExFxBxDxCxegedabagacad
