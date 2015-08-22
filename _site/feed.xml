@@ -5,12 +5,12 @@
     <description>Abdullah Alshammari Blog</description>
     <link>http://codingalone.com/</link>
     <atom:link href="http://codingalone.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 22 Aug 2015 03:26:26 +0300</pubDate>
-    <lastBuildDate>Sat, 22 Aug 2015 03:26:26 +0300</lastBuildDate>
+    <pubDate>Sat, 22 Aug 2015 03:32:06 +0300</pubDate>
+    <lastBuildDate>Sat, 22 Aug 2015 03:32:06 +0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>تعديلاتي على شكل vim و terminal </title>
+        <title>تعديلاتي على مظهر vim و iTerm2 </title>
         <description>&lt;p&gt;&lt;em&gt;سأعرض&lt;/em&gt; بشكل سريع الثيم الذي أستخدمه مع vim و iTerm2 مع تعديل بسيط على bash، كلها ممكن تعمل على linux أو mac ، بإستثناء طبعا iTerm2 الخاص بالماك، لكن أكيد لديك terminal آخر ممكن تجري عليه نفس التعديل.&lt;/p&gt;
 
 &lt;h2 id=&quot;iterm2--bash&quot;&gt;iTerm2 + bash&lt;/h2&gt;
@@ -38,7 +38,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 
 &lt;h2 id=&quot;vim&quot;&gt;vim&lt;/h2&gt;
 
-&lt;p&gt;هذه صورة من الثيم   &lt;a href=&quot;https://github.com/morhetz/gruvbox&quot;&gt;gruvbox&lt;/a&gt; ستجد ملف اسمه gruvbox.vim، حمله أو حمل غيره، ثم ضعه في المسار &lt;code&gt;~/.vim/colors/&lt;/code&gt; ثم عدل على &lt;code&gt;~/.vimrc&lt;/code&gt; بإضافة  التالي:&lt;/p&gt;
+&lt;p&gt;كنت في السابق أستخدم dark solarized ولكن “ملّيت منه” وانتقلت إلى   &lt;a href=&quot;https://github.com/morhetz/gruvbox&quot;&gt;gruvbox&lt;/a&gt;. تثبيته سهل مثل أي color scheme حيث ستجد ملف اسمه gruvbox.vim، حمله ثم ضعه في المسار &lt;code&gt;~/.vim/colors/&lt;/code&gt; ثم عدل على &lt;code&gt;~/.vimrc&lt;/code&gt; بإضافة  التالي:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;syntax enable
 set background=dark

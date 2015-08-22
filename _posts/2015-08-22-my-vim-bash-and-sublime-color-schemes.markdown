@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "تعديلاتي على شكل vim و terminal "
+title:  "تعديلاتي على مظهر vim و iTerm2 "
 date:   2015-08-22 01:32:30
 categories: general
 ---
@@ -32,7 +32,7 @@ categories: general
 
 ##vim
 
-هذه صورة من الثيم   [gruvbox][github-repo] ستجد ملف اسمه gruvbox.vim، حمله أو حمل غيره، ثم ضعه في المسار ``` ~/.vim/colors/``` ثم عدل على ```~/.vimrc``` بإضافة  التالي:
+كنت في السابق أستخدم dark solarized ولكن "ملّيت منه" وانتقلت إلى   [gruvbox][github-repo]. تثبيته سهل مثل أي color scheme حيث ستجد ملف اسمه gruvbox.vim، حمله ثم ضعه في المسار ``` ~/.vim/colors/``` ثم عدل على ```~/.vimrc``` بإضافة  التالي:
 
 	syntax enable
 	set background=dark
