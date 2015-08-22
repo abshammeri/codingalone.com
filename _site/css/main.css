@@ -278,6 +278,7 @@ body {
 
 .post-list {
   margin-right: 0;
+  margin-left: 0;
   list-style: none; }
   .post-list > li {
     margin-bottom: 40px; }
