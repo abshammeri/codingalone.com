@@ -5,8 +5,8 @@
     <description>Abdullah Alshammari Blog</description>
     <link>http://codingalone.com/</link>
     <atom:link href="http://codingalone.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 22 Aug 2015 02:51:10 +0300</pubDate>
-    <lastBuildDate>Sat, 22 Aug 2015 02:51:10 +0300</lastBuildDate>
+    <pubDate>Sat, 22 Aug 2015 03:20:35 +0300</pubDate>
+    <lastBuildDate>Sat, 22 Aug 2015 03:20:35 +0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -16,9 +16,10 @@
 &lt;h2 id=&quot;iterm2--bash&quot;&gt;iTerm2 + bash&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;( يمكنك تجاهل هذه الفقرة إذا كنت لا ترغب به أو تستخدم linux).
-الكثير يستخدم &lt;a href=&quot;https://www.iterm2.com&quot;&gt;iTerm2&lt;/a&gt; كـ Terminal عوضاً عن الذي يأتي بشكل افتراضي مع OS X ، وأقترح عليك استخدامه . هذه صورة للثيم المستخدم واسمه Twilight -  بالمناسبة ، أكره هذا الفيلم - :&lt;/p&gt;
+  &lt;p&gt;( يمكنك تجاهل هذه الفقرة إذا كنت لا ترغب بتغيير الـ terminal لديك أو إن كنت تستخدم  linux ).&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;الكثير يستخدم &lt;a href=&quot;https://www.iterm2.com&quot;&gt;iTerm2&lt;/a&gt; كـ Terminal عوضاً عن الذي يأتي بشكل افتراضي مع OS X ، وأقترح عليك استخدامه . هذه صورة للثيم المستخدم واسمه Twilight -  بالمناسبة ، أكره هذا الفيلم - :&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://codingalone.com/assets/term2-twilight.png&quot; alt=&quot;iTerm2 twilight color scheme&quot; /&gt;&lt;/p&gt;
 
@@ -26,30 +27,29 @@
 
 &lt;p&gt;لعلك لاحظت في الصورة السابقة عبارة “ashammari in github” مع سهم صغير. بالظبط، هنا تحتاج تعدل على bash و تحديدا الـ &lt;code&gt;~/.bash_profile&lt;/code&gt; هذا مثال على بعض التعديلات على ذلك الملف ليضيف لك header في terminal ، أخذت الفكرة من أحد ما من الانترنت  ، لا أذكر المصدر للأسف:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
-#   Change Prompt
+&lt;pre&gt;&lt;code&gt;#   Change Prompt
 #   ------------------------------------------------------------
 export PS1=&quot;\[\e[31;5;81m\]\u in \W\n→\[\e[39m\] &quot;
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;طبعا بعد التعديل تحتاج إعادة تحميل الملف أو إنشاء جلسة جديدة new session ، مثلا &lt;code&gt;source ~/.bash_profile&lt;/code&gt; ستفي بالغرض.&lt;/p&gt;
 
 &lt;h2 id=&quot;vim&quot;&gt;vim&lt;/h2&gt;
 
-&lt;p&gt;هذه صورة من الثيم   &lt;a href=&quot;https://github.com/morhetz/gruvbox&quot;&gt;gruvbox&lt;/a&gt; ستجد ملف اسمه gruvbox.vim، حمله أو حمل غيره، ثم ضعه في المسار &lt;code&gt;~/.vim/colors/&lt;/code&gt; ثم عدل على &lt;code&gt;~/.vimrc&lt;/code&gt; بإضافة  التالي:
-&lt;code&gt;
-syntax enable
+&lt;p&gt;هذه صورة من الثيم   &lt;a href=&quot;https://github.com/morhetz/gruvbox&quot;&gt;gruvbox&lt;/a&gt; ستجد ملف اسمه gruvbox.vim، حمله أو حمل غيره، ثم ضعه في المسار &lt;code&gt;~/.vim/colors/&lt;/code&gt; ثم عدل على &lt;code&gt;~/.vimrc&lt;/code&gt; بإضافة  التالي:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;syntax enable
 set background=dark
 colorscheme gruvbox
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;هذه صورة لأحد الملفات أثناء تحريرها باستخدام vim/gruvbox :&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://codingalone.com/assets/gruvbox.png&quot; alt=&quot;vim + gruvbox color scheme&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;إن كان لديك ملاحظات، فعلى حسابي &lt;a href=&quot;https://twitter.com/abshammeri&quot;&gt;تويتر&lt;/a&gt; تجدني.&lt;/p&gt;
+&lt;p&gt;إن كان لديك ملاحظات أو تعقيب، تواصل معي على &lt;a href=&quot;https://twitter.com/abshammeri&quot;&gt;تويتر&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 22 Aug 2015 04:32:30 +0300</pubDate>

@@ -110,9 +110,10 @@
 <h2 id="iterm2--bash">iTerm2 + bash</h2>
 
 <blockquote>
-  <p>( يمكنك تجاهل هذه الفقرة إذا كنت لا ترغب به أو تستخدم linux).
-الكثير يستخدم <a href="https://www.iterm2.com">iTerm2</a> كـ Terminal عوضاً عن الذي يأتي بشكل افتراضي مع OS X ، وأقترح عليك استخدامه . هذه صورة للثيم المستخدم واسمه Twilight -  بالمناسبة ، أكره هذا الفيلم - :</p>
+  <p>( يمكنك تجاهل هذه الفقرة إذا كنت لا ترغب بتغيير الـ terminal لديك أو إن كنت تستخدم  linux ).</p>
 </blockquote>
+
+<p>الكثير يستخدم <a href="https://www.iterm2.com">iTerm2</a> كـ Terminal عوضاً عن الذي يأتي بشكل افتراضي مع OS X ، وأقترح عليك استخدامه . هذه صورة للثيم المستخدم واسمه Twilight -  بالمناسبة ، أكره هذا الفيلم - :</p>
 
 <p><img src="http://codingalone.com/assets/term2-twilight.png" alt="iTerm2 twilight color scheme" /></p>
 
@@ -120,30 +121,29 @@
 
 <p>لعلك لاحظت في الصورة السابقة عبارة “ashammari in github” مع سهم صغير. بالظبط، هنا تحتاج تعدل على bash و تحديدا الـ <code>~/.bash_profile</code> هذا مثال على بعض التعديلات على ذلك الملف ليضيف لك header في terminal ، أخذت الفكرة من أحد ما من الانترنت  ، لا أذكر المصدر للأسف:</p>
 
-<p><code>
-#   Change Prompt
+<pre><code>#   Change Prompt
 #   ------------------------------------------------------------
 export PS1="\[\e[31;5;81m\]\u in \W\n→\[\e[39m\] "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-</code></p>
+</code></pre>
 
 <p>طبعا بعد التعديل تحتاج إعادة تحميل الملف أو إنشاء جلسة جديدة new session ، مثلا <code>source ~/.bash_profile</code> ستفي بالغرض.</p>
 
 <h2 id="vim">vim</h2>
 
-<p>هذه صورة من الثيم   <a href="https://github.com/morhetz/gruvbox">gruvbox</a> ستجد ملف اسمه gruvbox.vim، حمله أو حمل غيره، ثم ضعه في المسار <code>~/.vim/colors/</code> ثم عدل على <code>~/.vimrc</code> بإضافة  التالي:
-<code>
-syntax enable
+<p>هذه صورة من الثيم   <a href="https://github.com/morhetz/gruvbox">gruvbox</a> ستجد ملف اسمه gruvbox.vim، حمله أو حمل غيره، ثم ضعه في المسار <code>~/.vim/colors/</code> ثم عدل على <code>~/.vimrc</code> بإضافة  التالي:</p>
+
+<pre><code>syntax enable
 set background=dark
 colorscheme gruvbox
-</code></p>
+</code></pre>
 
 <p>هذه صورة لأحد الملفات أثناء تحريرها باستخدام vim/gruvbox :</p>
 
 <p><img src="http://codingalone.com/assets/gruvbox.png" alt="vim + gruvbox color scheme" /></p>
 
-<p>إن كان لديك ملاحظات، فعلى حسابي <a href="https://twitter.com/abshammeri">تويتر</a> تجدني.</p>
+<p>إن كان لديك ملاحظات أو تعقيب، تواصل معي على <a href="https://twitter.com/abshammeri">تويتر</a>.</p>
 
 
   </article>
