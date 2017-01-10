@@ -10,7 +10,7 @@
     <meta name="description" content="born to code alone">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://codingalone.com/">
+    <link rel="canonical" href="https://abdullah.sh/">
 	<link rel="alternate" type="application/rss+xml" title="Coding Alone" href="/feed.xml">
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -115,7 +115,7 @@
 		<p>
 			<p><em>سأعرض</em> بشكل سريع الثيم الذي أستخدمه مع vim و iTerm2 مع تعديل بسيط على bash، كلها ممكن تعمل على linux أو mac ، بإستثناء طبعا iTerm2 الخاص بالماك، لكن أكيد لديك terminal آخر ممكن تجري عليه نفس التعديل.</p>
 
-<h2 id="iterm2--bash">iTerm2 + bash</h2>
+<p>##iTerm2 + bash</p>
 
 <blockquote>
   <p>( يمكنك تجاهل هذه الفقرة إذا كنت لا ترغب بتغيير الـ terminal لديك أو إن كنت تستخدم  linux ).</p>
@@ -123,32 +123,34 @@
 
 <p>الكثير يستخدم <a href="https://www.iterm2.com">iTerm2</a> كـ Terminal عوضاً عن الذي يأتي بشكل افتراضي مع OS X ، وأقترح عليك استخدامه . هذه صورة للثيم المستخدم واسمه Twilight -  بالمناسبة ، أكره هذا الفيلم - :</p>
 
-<p><img src="http://codingalone.com/assets/iterm2-twilight.png" alt="iTerm2 twilight color scheme" /></p>
+<p><img src="https://abdullah.sh/assets/iterm2-twilight.png" alt="iTerm2 twilight color scheme" /></p>
 
 <p>إذا أعجبك الثيم أو ترغب في الحصول على آخر أقترح أيضا أن تلقي نظرة على موقع <a href="http://iterm2colorschemes.com/">iTerm2-color-schemes</a> حيث يحتوي على ملف مضغوط بعشرات من الـ color schemes مع شرح مبسط لطريقة التثبيت.</p>
 
-<p>لعلك لاحظت في الصورة السابقة عبارة “ashammari in github” مع سهم صغير. بالظبط، هنا تحتاج تعدل على bash و تحديدا الـ <code>~/.bash_profile</code> هذا مثال على بعض التعديلات على ذلك الملف ليضيف لك header في terminal ، أخذت الفكرة من أحد ما من الانترنت  ، لا أذكر المصدر للأسف:</p>
+<p>لعلك لاحظت في الصورة السابقة عبارة “ashammari in github” مع سهم صغير. بالظبط، هنا تحتاج تعدل على bash و تحديدا الـ <code class="highlighter-rouge">~/.bash_profile</code> هذا مثال على بعض التعديلات على ذلك الملف ليضيف لك header في terminal ، أخذت الفكرة من أحد ما من الانترنت  ، لا أذكر المصدر للأسف:</p>
 
-<pre><code>#   Change Prompt
+<div class="highlighter-rouge"><pre class="highlight"><code>#   Change Prompt
 export PS1="\[\e[31;5;81m\]\u in \W\n→\[\e[39m\] "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 </code></pre>
+</div>
 
-<p>طبعا بعد التعديل تحتاج إعادة تحميل الملف أو إنشاء جلسة جديدة new session ، مثلا <code>source ~/.bash_profile</code> ستفي بالغرض.</p>
+<p>طبعا بعد التعديل تحتاج إعادة تحميل الملف أو إنشاء جلسة جديدة new session ، مثلا <code class="highlighter-rouge">source ~/.bash_profile</code> ستفي بالغرض.</p>
 
-<h2 id="vim">vim</h2>
+<p>##vim</p>
 
-<p>كنت في السابق أستخدم dark solarized ولكن “ملّيت منه” وانتقلت إلى   <a href="https://github.com/morhetz/gruvbox">gruvbox</a>. تثبيته سهل مثل أي color scheme حيث ستجد ملف اسمه gruvbox.vim، حمله ثم ضعه في المسار <code>~/.vim/colors/</code> ثم عدل على <code>~/.vimrc</code> بإضافة  التالي:</p>
+<p>كنت في السابق أستخدم dark solarized ولكن “ملّيت منه” وانتقلت إلى   <a href="https://github.com/morhetz/gruvbox">gruvbox</a>. تثبيته سهل مثل أي color scheme حيث ستجد ملف اسمه gruvbox.vim، حمله ثم ضعه في المسار <code class="highlighter-rouge">~/.vim/colors/</code> ثم عدل على <code class="highlighter-rouge">~/.vimrc</code> بإضافة  التالي:</p>
 
-<pre><code>syntax enable
+<div class="highlighter-rouge"><pre class="highlight"><code>syntax enable
 set background=dark
 colorscheme gruvbox
 </code></pre>
+</div>
 
 <p>هذه صورة لأحد الملفات أثناء تحريرها باستخدام vim/gruvbox :</p>
 
-<p><img src="http://codingalone.com/assets/gruvbox.png" alt="vim + gruvbox color scheme" /></p>
+<p><img src="https://abdullah.sh/assets/gruvbox.png" alt="vim + gruvbox color scheme" /></p>
 
 <p>إن كان لديك ملاحظات أو تعقيب، تواصل معي على <a href="https://twitter.com/abshammeri">تويتر</a>.</p>
 
@@ -167,11 +169,11 @@ colorscheme gruvbox
 
 <p>استخدمت أدوات مفتوحة المصدر في تطوير هذا الموقع ، واعتمدت على “تصميم بسيط” ليظهر بهذا الشكل. <a href="http://jekyllrb.com">Jekyll</a> هي الأداة التي استخدمتها في بناء هذا الموقع، وهي مبنية باستخدام Ruby وصدقني : لا أعرف Ruby كما لا أعرف كيف أكتب Jekyll بطريقة صحيحة في كل مرة. Jekyll هي أداة لتوليد ملفات html ستاتيكية ، لا يوجد قاعدة بيانات ، حيث كل البيانات مخزنة في مستودع على github ، وبالمناسبة ، موقعي <a href="https://github.com/abshammeri/codingalone.com">مفتوح المصدر</a>. أستخدم سيرفر شخصي VPS مستضاف لدى الشركة الرائعة جدا <a href="http://linode.com">linode</a>، حيث نظام التشغيل Ubuntu و الويب سيرفر هو <a href="http://nginx.org/">nginx</a>. أستخدم <a href="http://git-scm.com/book/en/Customizing-Git-Git-Hooks">git hook</a> لعمل deployment من جهازي إلى السيرفر ، سأشرح في تدوينة قادمة كيف حدث هذا. طبعا عملية تثبيت السيرفر وإعداده لأول مرة عملية متعبة لمن لا يفقه بنظام linux إلا القليل ، لكن استفدت كثيرا من <a href="http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers">مقالات متعددة</a> ترشدك للخمس الدقائق الأولى التي تحتاجها ، مثل تثبيت Fail2ban و إنشاء users و إضافة privielges. أما logs فأستخدم أداة <a href="http://linux.die.net/man/8/logwatch">logwatch</a> لمشاهدة ملخص يومي يصلني على بريدي الشخصي عن حالة server ، من دخل ومن خرج وماذا حدث.</p>
 
-<h2 id="section">التصميم</h2>
+<p>##التصميم</p>
 
 <p>هل أعجبك هذا الخط؟ أتمنى ذلك لأني دفعت مقابل الحصول عليه مئة ريال واسمه <a href="https://www.rosettatype.com/Eskorte">Eskorte</a> ، هذه النسخة تجريبية تنتهي بعد سنة ولم أقرا الرخصة بالتفصيل ، لكن الأكيد أنه يجب أن تدفع بعض المال مقابل الحصول على هذا الخط ،  ، لكن سأعطيه بعض الوقت وسأرى. أما الموقع نفسه فاستخدمت نفس css/sass الافتراضي في jekyll ، مع بعض التعديلات ليتوافق مع اللغة العربية. لازال الوقت طويلا للوصول إلى تصميم مرضي.</p>
 
-<h2 id="section-1">اهتماماتي</h2>
+<p>##اهتماماتي</p>
 
 <p>أهتم في تطوير تطبيقات الويب و الموبايل ، لكن قد أكتب عن أشياء مثل nginx as load balancer أو OpenGL Graphics Programming أو Paraller Processing ، بالعربي بتاع كلّه، حسب المزاج.</p>
 

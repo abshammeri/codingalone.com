@@ -3,17 +3,17 @@
   <channel>
     <title>Coding Alone</title>
     <description>Abdullah Alshammari Blog</description>
-    <link>http://codingalone.com/</link>
-    <atom:link href="http://codingalone.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 22 Aug 2015 05:49:09 +0300</pubDate>
-    <lastBuildDate>Sat, 22 Aug 2015 05:49:09 +0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>https://abdullah.sh/</link>
+    <atom:link href="https://abdullah.sh/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 10 Jan 2017 12:26:36 +0300</pubDate>
+    <lastBuildDate>Tue, 10 Jan 2017 12:26:36 +0300</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>تعديلاتي على مظهر vim و iTerm2 </title>
         <description>&lt;p&gt;&lt;em&gt;سأعرض&lt;/em&gt; بشكل سريع الثيم الذي أستخدمه مع vim و iTerm2 مع تعديل بسيط على bash، كلها ممكن تعمل على linux أو mac ، بإستثناء طبعا iTerm2 الخاص بالماك، لكن أكيد لديك terminal آخر ممكن تجري عليه نفس التعديل.&lt;/p&gt;
 
-&lt;h2 id=&quot;iterm2--bash&quot;&gt;iTerm2 + bash&lt;/h2&gt;
+&lt;p&gt;##iTerm2 + bash&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;( يمكنك تجاهل هذه الفقرة إذا كنت لا ترغب بتغيير الـ terminal لديك أو إن كنت تستخدم  linux ).&lt;/p&gt;
@@ -21,40 +21,42 @@
 
 &lt;p&gt;الكثير يستخدم &lt;a href=&quot;https://www.iterm2.com&quot;&gt;iTerm2&lt;/a&gt; كـ Terminal عوضاً عن الذي يأتي بشكل افتراضي مع OS X ، وأقترح عليك استخدامه . هذه صورة للثيم المستخدم واسمه Twilight -  بالمناسبة ، أكره هذا الفيلم - :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://codingalone.com/assets/iterm2-twilight.png&quot; alt=&quot;iTerm2 twilight color scheme&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://abdullah.sh/assets/iterm2-twilight.png&quot; alt=&quot;iTerm2 twilight color scheme&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;إذا أعجبك الثيم أو ترغب في الحصول على آخر أقترح أيضا أن تلقي نظرة على موقع &lt;a href=&quot;http://iterm2colorschemes.com/&quot;&gt;iTerm2-color-schemes&lt;/a&gt; حيث يحتوي على ملف مضغوط بعشرات من الـ color schemes مع شرح مبسط لطريقة التثبيت.&lt;/p&gt;
 
-&lt;p&gt;لعلك لاحظت في الصورة السابقة عبارة “ashammari in github” مع سهم صغير. بالظبط، هنا تحتاج تعدل على bash و تحديدا الـ &lt;code&gt;~/.bash_profile&lt;/code&gt; هذا مثال على بعض التعديلات على ذلك الملف ليضيف لك header في terminal ، أخذت الفكرة من أحد ما من الانترنت  ، لا أذكر المصدر للأسف:&lt;/p&gt;
+&lt;p&gt;لعلك لاحظت في الصورة السابقة عبارة “ashammari in github” مع سهم صغير. بالظبط، هنا تحتاج تعدل على bash و تحديدا الـ &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.bash_profile&lt;/code&gt; هذا مثال على بعض التعديلات على ذلك الملف ليضيف لك header في terminal ، أخذت الفكرة من أحد ما من الانترنت  ، لا أذكر المصدر للأسف:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;#   Change Prompt
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#   Change Prompt
 export PS1=&quot;\[\e[31;5;81m\]\u in \W\n→\[\e[39m\] &quot;
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;طبعا بعد التعديل تحتاج إعادة تحميل الملف أو إنشاء جلسة جديدة new session ، مثلا &lt;code&gt;source ~/.bash_profile&lt;/code&gt; ستفي بالغرض.&lt;/p&gt;
+&lt;p&gt;طبعا بعد التعديل تحتاج إعادة تحميل الملف أو إنشاء جلسة جديدة new session ، مثلا &lt;code class=&quot;highlighter-rouge&quot;&gt;source ~/.bash_profile&lt;/code&gt; ستفي بالغرض.&lt;/p&gt;
 
-&lt;h2 id=&quot;vim&quot;&gt;vim&lt;/h2&gt;
+&lt;p&gt;##vim&lt;/p&gt;
 
-&lt;p&gt;كنت في السابق أستخدم dark solarized ولكن “ملّيت منه” وانتقلت إلى   &lt;a href=&quot;https://github.com/morhetz/gruvbox&quot;&gt;gruvbox&lt;/a&gt;. تثبيته سهل مثل أي color scheme حيث ستجد ملف اسمه gruvbox.vim، حمله ثم ضعه في المسار &lt;code&gt;~/.vim/colors/&lt;/code&gt; ثم عدل على &lt;code&gt;~/.vimrc&lt;/code&gt; بإضافة  التالي:&lt;/p&gt;
+&lt;p&gt;كنت في السابق أستخدم dark solarized ولكن “ملّيت منه” وانتقلت إلى   &lt;a href=&quot;https://github.com/morhetz/gruvbox&quot;&gt;gruvbox&lt;/a&gt;. تثبيته سهل مثل أي color scheme حيث ستجد ملف اسمه gruvbox.vim، حمله ثم ضعه في المسار &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.vim/colors/&lt;/code&gt; ثم عدل على &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.vimrc&lt;/code&gt; بإضافة  التالي:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;syntax enable
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;syntax enable
 set background=dark
 colorscheme gruvbox
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;هذه صورة لأحد الملفات أثناء تحريرها باستخدام vim/gruvbox :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://codingalone.com/assets/gruvbox.png&quot; alt=&quot;vim + gruvbox color scheme&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://abdullah.sh/assets/gruvbox.png&quot; alt=&quot;vim + gruvbox color scheme&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;إن كان لديك ملاحظات أو تعقيب، تواصل معي على &lt;a href=&quot;https://twitter.com/abshammeri&quot;&gt;تويتر&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 22 Aug 2015 04:32:30 +0300</pubDate>
 		<dc:creator>Abdullah Alshammari</dc:creator>
-        <link>http://codingalone.com/general/my-vim-bash-and-sublime-color-schemes</link>
-        <guid isPermaLink="true">http://codingalone.com/general/my-vim-bash-and-sublime-color-schemes</guid>
+        <link>https://abdullah.sh/general/my-vim-bash-and-sublime-color-schemes</link>
+        <guid isPermaLink="true">https://abdullah.sh/general/my-vim-bash-and-sublime-color-schemes</guid>
         
         
         <category>general</category>
@@ -68,11 +70,11 @@ colorscheme gruvbox
 
 &lt;p&gt;استخدمت أدوات مفتوحة المصدر في تطوير هذا الموقع ، واعتمدت على “تصميم بسيط” ليظهر بهذا الشكل. &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; هي الأداة التي استخدمتها في بناء هذا الموقع، وهي مبنية باستخدام Ruby وصدقني : لا أعرف Ruby كما لا أعرف كيف أكتب Jekyll بطريقة صحيحة في كل مرة. Jekyll هي أداة لتوليد ملفات html ستاتيكية ، لا يوجد قاعدة بيانات ، حيث كل البيانات مخزنة في مستودع على github ، وبالمناسبة ، موقعي &lt;a href=&quot;https://github.com/abshammeri/codingalone.com&quot;&gt;مفتوح المصدر&lt;/a&gt;. أستخدم سيرفر شخصي VPS مستضاف لدى الشركة الرائعة جدا &lt;a href=&quot;http://linode.com&quot;&gt;linode&lt;/a&gt;، حيث نظام التشغيل Ubuntu و الويب سيرفر هو &lt;a href=&quot;http://nginx.org/&quot;&gt;nginx&lt;/a&gt;. أستخدم &lt;a href=&quot;http://git-scm.com/book/en/Customizing-Git-Git-Hooks&quot;&gt;git hook&lt;/a&gt; لعمل deployment من جهازي إلى السيرفر ، سأشرح في تدوينة قادمة كيف حدث هذا. طبعا عملية تثبيت السيرفر وإعداده لأول مرة عملية متعبة لمن لا يفقه بنظام linux إلا القليل ، لكن استفدت كثيرا من &lt;a href=&quot;http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers&quot;&gt;مقالات متعددة&lt;/a&gt; ترشدك للخمس الدقائق الأولى التي تحتاجها ، مثل تثبيت Fail2ban و إنشاء users و إضافة privielges. أما logs فأستخدم أداة &lt;a href=&quot;http://linux.die.net/man/8/logwatch&quot;&gt;logwatch&lt;/a&gt; لمشاهدة ملخص يومي يصلني على بريدي الشخصي عن حالة server ، من دخل ومن خرج وماذا حدث.&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;التصميم&lt;/h2&gt;
+&lt;p&gt;##التصميم&lt;/p&gt;
 
 &lt;p&gt;هل أعجبك هذا الخط؟ أتمنى ذلك لأني دفعت مقابل الحصول عليه مئة ريال واسمه &lt;a href=&quot;https://www.rosettatype.com/Eskorte&quot;&gt;Eskorte&lt;/a&gt; ، هذه النسخة تجريبية تنتهي بعد سنة ولم أقرا الرخصة بالتفصيل ، لكن الأكيد أنه يجب أن تدفع بعض المال مقابل الحصول على هذا الخط ،  ، لكن سأعطيه بعض الوقت وسأرى. أما الموقع نفسه فاستخدمت نفس css/sass الافتراضي في jekyll ، مع بعض التعديلات ليتوافق مع اللغة العربية. لازال الوقت طويلا للوصول إلى تصميم مرضي.&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;اهتماماتي&lt;/h2&gt;
+&lt;p&gt;##اهتماماتي&lt;/p&gt;
 
 &lt;p&gt;أهتم في تطوير تطبيقات الويب و الموبايل ، لكن قد أكتب عن أشياء مثل nginx as load balancer أو OpenGL Graphics Programming أو Paraller Processing ، بالعربي بتاع كلّه، حسب المزاج.&lt;/p&gt;
 
@@ -81,8 +83,8 @@ colorscheme gruvbox
 </description>
         <pubDate>Mon, 01 Sep 2014 03:00:13 +0300</pubDate>
 		<dc:creator>Abdullah Alshammari</dc:creator>
-        <link>http://codingalone.com/general/tools-used-in-this-blog</link>
-        <guid isPermaLink="true">http://codingalone.com/general/tools-used-in-this-blog</guid>
+        <link>https://abdullah.sh/general/tools-used-in-this-blog</link>
+        <guid isPermaLink="true">https://abdullah.sh/general/tools-used-in-this-blog</guid>
         
         
         <category>general</category>
