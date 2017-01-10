@@ -3,10 +3,10 @@
   <channel>
     <title>Coding Alone</title>
     <description>Abdullah Alshammari Blog</description>
-    <link>https://abdullah.sh/</link>
-    <atom:link href="https://abdullah.sh/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Jan 2017 12:26:36 +0300</pubDate>
-    <lastBuildDate>Tue, 10 Jan 2017 12:26:36 +0300</lastBuildDate>
+    <link>http://abdullah.sh/</link>
+    <atom:link href="http://abdullah.sh/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 10 Jan 2017 12:36:57 +0300</pubDate>
+    <lastBuildDate>Tue, 10 Jan 2017 12:36:57 +0300</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;الكثير يستخدم &lt;a href=&quot;https://www.iterm2.com&quot;&gt;iTerm2&lt;/a&gt; كـ Terminal عوضاً عن الذي يأتي بشكل افتراضي مع OS X ، وأقترح عليك استخدامه . هذه صورة للثيم المستخدم واسمه Twilight -  بالمناسبة ، أكره هذا الفيلم - :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://abdullah.sh/assets/iterm2-twilight.png&quot; alt=&quot;iTerm2 twilight color scheme&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://abdullah.sh/assets/iterm2-twilight.png&quot; alt=&quot;iTerm2 twilight color scheme&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;إذا أعجبك الثيم أو ترغب في الحصول على آخر أقترح أيضا أن تلقي نظرة على موقع &lt;a href=&quot;http://iterm2colorschemes.com/&quot;&gt;iTerm2-color-schemes&lt;/a&gt; حيث يحتوي على ملف مضغوط بعشرات من الـ color schemes مع شرح مبسط لطريقة التثبيت.&lt;/p&gt;
 
@@ -48,15 +48,15 @@ colorscheme gruvbox
 
 &lt;p&gt;هذه صورة لأحد الملفات أثناء تحريرها باستخدام vim/gruvbox :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://abdullah.sh/assets/gruvbox.png&quot; alt=&quot;vim + gruvbox color scheme&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://abdullah.sh/assets/gruvbox.png&quot; alt=&quot;vim + gruvbox color scheme&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;إن كان لديك ملاحظات أو تعقيب، تواصل معي على &lt;a href=&quot;https://twitter.com/abshammeri&quot;&gt;تويتر&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 22 Aug 2015 04:32:30 +0300</pubDate>
 		<dc:creator>Abdullah Alshammari</dc:creator>
-        <link>https://abdullah.sh/general/my-vim-bash-and-sublime-color-schemes</link>
-        <guid isPermaLink="true">https://abdullah.sh/general/my-vim-bash-and-sublime-color-schemes</guid>
+        <link>http://abdullah.sh/general/my-vim-bash-and-sublime-color-schemes</link>
+        <guid isPermaLink="true">http://abdullah.sh/general/my-vim-bash-and-sublime-color-schemes</guid>
         
         
         <category>general</category>
@@ -83,8 +83,8 @@ colorscheme gruvbox
 </description>
         <pubDate>Mon, 01 Sep 2014 03:00:13 +0300</pubDate>
 		<dc:creator>Abdullah Alshammari</dc:creator>
-        <link>https://abdullah.sh/general/tools-used-in-this-blog</link>
-        <guid isPermaLink="true">https://abdullah.sh/general/tools-used-in-this-blog</guid>
+        <link>http://abdullah.sh/general/tools-used-in-this-blog</link>
+        <guid isPermaLink="true">http://abdullah.sh/general/tools-used-in-this-blog</guid>
         
         
         <category>general</category>

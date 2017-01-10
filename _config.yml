@@ -3,7 +3,7 @@ title: عبدالله الشمّري
 email: abshammeri@gmail.com
 description: born to code alone
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://abdullah.sh" # the base hostname & protocol for your site
+url: "http://abdullah.sh" # the base hostname & protocol for your site
 twitter_username: abshammeri
 github_username:  abshammeri
 permalink: /:categories/:title
